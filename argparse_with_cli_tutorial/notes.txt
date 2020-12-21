@@ -1,0 +1,65 @@
+For when I'm wanting to review on how the argparse library works.
+
+
+
+LINKS I'M LEARNING FROM:
+
+How to Build Command Line Interfaces in Python With argparse:
+    https://realpython.com/command-line-interfaces-python-argparse/#:~:text=The%20command%20line%20interface%20(also,currently%20the%20Python%20argparse%20library.
+
+argparse Docs:
+    https://docs.python.org/3/library/argparse.html
+
+
+
+CONTENTS (File purpose explanation):
+
+Myls files:
+    myls_1.py: if done without argparse
+    myls_2.py: with argparse, no
+    myls_3.py:
+
+fromfile files:
+    fromfile.py:
+    args.py:
+
+abbrev.py:
+
+custom_actions.py:
+
+actions.py:
+
+
+
+NOTES: 
+
+There were more examples that we could have copied for
+more files, but I think the examples were a little too 
+niche for filling this folder, so here are the points
+they covered:
+
+
+you can set the number of values an option can consume
+pos1 pos2 pos3 -opt
+(the -opt can modified the first thre pos args)
+
+you can set a default value if arg is missing
+_ -opt
+(there can be a pretend val that gets used if there isn't
+a positional arg there already)
+
+you can set the type of argument you want the -opt to modify
+
+you can set a domain or a range of values the -opt can modify
+
+you can set whether the an argument is required
+
+you can give it a brief description of what an argument does
+
+you can make arguments mutually exclusive
+
+you can use the metavar param to set the name of the arg
+
+you can set the name of the attributer to be added to the
+parser object once everything has been parsed.
+
